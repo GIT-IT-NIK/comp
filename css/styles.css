@@ -338,7 +338,7 @@ html {
     width: 100%
 }
 
-#nav #logo svg path {
+#nav {
     fill: #fff
 }
 
