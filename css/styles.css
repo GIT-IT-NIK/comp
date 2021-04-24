@@ -1704,7 +1704,7 @@ html {
     }
 
     #header {
-        margin-bottom: 24.229vw
+        margin-bottom: 24.229vw;
     }
 
     #header #intro {
@@ -2106,6 +2106,11 @@ html {
     .intro-f-2-alt,
     .intro-f-3-alt {
         display: none
+    }
+
+    .headd{
+        color: #f7f7f7;
+        background:url(images/w.mp4);
     }
 }
 
