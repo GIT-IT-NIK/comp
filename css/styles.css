@@ -644,7 +644,11 @@ html {
     display: block;
     will-change: transform
 }
-
+#header #intro img{
+    float:right;
+    opacity: 0.8;
+    
+}
 #header #intro .fluid-rec {
     height: 7.198vw
 }

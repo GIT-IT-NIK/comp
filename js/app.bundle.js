@@ -21745,7 +21745,7 @@
                     }), this.mesh.name = "img";
                     break;
                 case "multiblock":
-                    this.theCount = n, this.countBlocks = 13, this.fractSize = this.width / this.countBlocks, this.halfFract = this.fractSize / 2, this.mesh = Vm.createBlock({
+                    this.theCount = n, this.countBlocks = 13, this.fractSize = this.width / this.countBlocks, this.halfFract = this.fractSize /2, this.mesh = Vm.createBlock({
                         width: this.fractSize,
                         height: this.height
                     }), this.mesh.name = "multi";
