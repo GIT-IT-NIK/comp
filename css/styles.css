@@ -8,9 +8,10 @@
     src: url(../fonts/Aeonik-Medium.woff) format("woff")
 }
 
-html.has-scroll-smooth {
-    overflow: hidden
+html {
+    overflow-y: scroll;
 }
+body { position: absolute; }
 
 html.has-scroll-dragging {
     -webkit-user-select: none;
@@ -23,9 +24,10 @@ html.has-scroll-dragging {
 
 .button2 {
     color: #f6f6f6;
+    padding: 5px;
     font-family: "AK1", sans-serif;
     font-size: 2.5rem;
-    border: rgb(5, 58, 58) 2px solid;
+    border: rgb(9, 116, 116) 2px solid;
     overflow: hidden;
     -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     -moz-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
@@ -40,10 +42,6 @@ html.has-scroll-dragging {
 }
 
 /* ==================================================================================== */
-
-.has-scroll-smooth body {
-    overflow: hidden
-}
 
 .has-scroll-smooth [data-scroll-container] {
     min-height: 100vh
